@@ -1,4 +1,4 @@
-package com.example.coco
+package com.example.coin
 
 import android.app.Application
 import timber.log.Timber

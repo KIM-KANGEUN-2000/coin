@@ -1,4 +1,4 @@
-package com.example.coco
+package com.example.coin
 
 import org.junit.Test
 

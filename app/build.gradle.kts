@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.coco"
+    namespace = "com.example.coin"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.coco"
+        applicationId = "com.example.coin"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
