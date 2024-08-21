@@ -1,9 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.coin" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.coin" parent="Theme.AppCompat.Light">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.coin" parent="Base.Theme.coin" />
+    
+    <style name="Base.Theme.coin.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/red</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/graph</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.coin</item>
+    </style>
 </resources>
