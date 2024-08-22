@@ -1,4 +1,4 @@
-package com.example.coin.view
+package com.example.coin.view.intro
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
